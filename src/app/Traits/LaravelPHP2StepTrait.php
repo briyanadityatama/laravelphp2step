@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use briyanadityatama\laravelphp2step\App\Models\TwoStepAuth;
 use briyanadityatama\laravelphp2step\App\Notifications\SendVerificationCodeEmail;
 
-trait Laravel2StepTrait
+trait LaravelPHP2StepTrait
 {
     /**
      * Check if the user is authorized.
