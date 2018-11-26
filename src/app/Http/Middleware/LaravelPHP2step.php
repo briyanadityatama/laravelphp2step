@@ -4,7 +4,7 @@ namespace briyanadityatama\laravelphp2step\App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use briyanadityatama\laravelphp2step\App\Traits\Laravel2StepTrait;
+use briyanadityatama\laravelphp2step\App\Traits\LaravelPHP2StepTrait;
 
 class LaravelPHP2step
 {
