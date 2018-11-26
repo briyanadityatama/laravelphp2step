@@ -10,7 +10,7 @@
   "type": "package",
   "authors": [
     {
-      "name": "briyanadityatama"
+      "name": "Briyan Adityatama"
     }
   ],
   "require": {
@@ -24,7 +24,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "briyanadityatama\\laravelphp2step\\laravel2stepServiceProvider"
+        "briyanadityatama\\laravelphp2step\\LaravelPHP2stepServiceProvider"
       ]
     }
   },
