@@ -7,7 +7,7 @@
 |
 */
 
-Route::group(['prefix' => 'verification', 'as' => 'laravelphp2step::', 'namespace' => 'jeremykenedy\laravelphp2step\App\Http\Controllers', 'middleware' => ['web']], function () {
+Route::group(['prefix' => 'verification', 'as' => 'laravelphp2step::', 'namespace' => 'briyanadityatama\laravelphp2step\App\Http\Controllers', 'middleware' => ['web']], function () {
     Route::get('/needed', ['uses' => 'TwoStepController@showVerification'])->name('verificationNeeded');
     Route::post('/verify', ['uses' => 'TwoStepController@verify'])->name('verify');
     Route::post('/resend', ['uses' => 'TwoStepController@resend'])->name('resend');
