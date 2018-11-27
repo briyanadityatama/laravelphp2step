@@ -10,7 +10,8 @@
   "type": "package",
   "authors": [
     {
-      "name": "Briyan Adityatama"
+      "name": "Briyan Adityatama",
+      "email": "briyanwam@gmail.com"
     }
   ],
   "require": {
