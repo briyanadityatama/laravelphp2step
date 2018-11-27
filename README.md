@@ -50,7 +50,7 @@ Laravel 2-Step Authentication Verification for Laravel. Can be used in out the b
 
 ```php
     'providers' => [
-        briyanadityatama\laravelphp2step\laravelphp2stepServiceProvider::class,
+        briyanadityatama\laravelphp2step\LaravelPHP2stepServiceProvider::class,
     ];
 ```
 
